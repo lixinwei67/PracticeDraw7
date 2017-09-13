@@ -28,3 +28,8 @@ HenCoder 绘制 7 属性动画 练习项目
 ![](images/project_sample.png)
 
 练习做完，这期的内容也就掌握得差不多了。
+
+1. 自定义 Evaluator 要重写 onEvaluate() 方法，根据进度 fraction 计算当前值即可
+2. PropertyValuesHolder 可以对同一个对象同时进行多个动画
+3. AnimatorSet 可以将多个动画配合执行，可以指定执行顺序，而 PropertyValuesHolder 只能同时执行
+4. KeyFrame 动画关键帧，可以指定在某个关键帧时刻动画的执行度
